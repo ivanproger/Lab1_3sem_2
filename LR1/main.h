@@ -323,5 +323,9 @@ int mainFunc() {
             return -1; 
         }
     }
+    loadTestShrdPtr(1000);
+    loadTestStdSharedPtr(1000);
+    loadTestUnqPtr(100000);
+    loadTestStdUniquePtr(100000);
     return 0;
 }
